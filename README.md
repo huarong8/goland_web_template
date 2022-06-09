@@ -1,8 +1,4 @@
-# XDANCE is X to earn project
-
-## intro
-project use *iris framework*  
-
+# golang web 新项目启动模板
 1. project struct  
     ```
     .
@@ -27,4 +23,3 @@ project use *iris framework*
     
     ```   
 
-2. Technology stack
