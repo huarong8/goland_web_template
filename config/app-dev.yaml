@@ -2,10 +2,10 @@ server:
   port: 8080
 
 mysql:
-  host: "db-dev.cvq6tifqs4ja.us-east-1.rds.amazonaws.com"
+  host: ""
   port: 3306
   user: root
-  passwd: "ZsXzNz778m3qIcVCBWmD"
+  passwd: ""
   db: xdance
   max_connects: 100
   max_idle_connects: 100
@@ -13,5 +13,5 @@ mysql:
   conn_max_lifetime: 3600
 
 redis:
-  host: "redis-dev.uewp4i.ng.0001.use1.cache.amazonaws.com"
+  host: ""
   port: 6379
