@@ -1,0 +1,7 @@
+FROM 174926371070.dkr.ecr.us-east-1.amazonaws.com/base/alpine:3.15.2
+WORKDIR /
+
+COPY ./xdance .
+COPY ./config/app-dev.yaml .
+
+CMD exec /xdance -c app-dev.yaml
